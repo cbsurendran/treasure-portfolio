@@ -32,6 +32,19 @@ h1 {
 .location {
   position: absolute;
   cursor: pointer;
+
+  width: 120px;
+  padding: 15px;
+  text-align: center;
+  background: rgba(255, 255, 190, 0.7);
+  border: 3px solid #70451f;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(60, 30, 10, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.location:hover {
+  transform: scale(1.15) rotate(-3deg);
 }
 
 .location h2 {
