@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #d8b878;
+  color: #3b2415;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.map {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  margin: 40px auto;
+  background: #e7ce91;
+  border: 8px solid #70451f;
+  border-radius: 30px;
+}
+
+.location {
+  position: absolute;
+  cursor: pointer;
+}
+
+.location h2 {
+  margin-top: 5px;
+}
+
+.about {
+  top: 80px;
+  left: 200px;
+}
+
+.projects {
+  top: 180px;
+  right: 150px;
+}
+
+.skills {
+  bottom: 100px;
+  left: 300px;
+}
+
+.contact {
+  bottom: 60px;
+  right: 180px;
+}
