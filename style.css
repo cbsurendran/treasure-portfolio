@@ -19,9 +19,14 @@ h1 {
   width: 900px;
   height: 600px;
   margin: 40px auto;
-  background: #e7ce91;
-  border: 8px solid #70451f;
-  border-radius: 30px;
+  background:
+    radial-gradient(circle at 20% 30%, #f2dda8 0 3%, transparent 4%),
+    radial-gradient(circle at 80% 70%, #c5a66a 0 2%, transparent 3%), #e7ce91;
+  border: 12px solid #70451f;
+  border-radius: 20px;
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.35),
+    inset 0 0 40px rgba(80, 40, 10, 0.35);
 }
 
 .location {
